@@ -1,6 +1,12 @@
+"use client";
+
+import Live from "@/components/Live";
 
 export default function Page() {
   return (
-      <h1 className="text-5xl text-white">Liveblocks Whiteboard App</h1>
+    <div>
+       <Live />
+    </div>
+
   );
 }
